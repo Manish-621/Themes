@@ -35,7 +35,7 @@ from openedx.core.djangolib.markup import HTML, Text
           <h3 class="header-txt">WE GOT WHAT YOU NEED!</h3>
           <p class="head-txt">A Discovery Program with Talent Accelerator, Startup Incubator, grab your chance to be with us in your entrepreneurship track</p>
           <div>
-              <a type="submit" href="/register" class="head-btn cursor-pointer block w-full py-3 px-4 rounded-md shadow bg-indigo-500 text-white font-medium hover:bg-indigo-600 focus:outline-none focus:ring-2 hover:no-underline focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"></a>><p class="btn-txt">Get Started</p>
+            <a type="submit" href="/register${login_query()}"><button class="head-btn"><p class="btn-txt">Get Started</p></button></a>
           </div>
           <p class="head-sub-txt">Over 40% of Students across India and 500+ companies use Skillassure</p>
       </div>
@@ -86,7 +86,7 @@ from openedx.core.djangolib.markup import HTML, Text
               <div class="cont-card">
                   <img class="card-logo" src="${static.url('images/card-vector7.svg')}">
                   <p class="card-headtxt">Code  Jam</p>
-                  <p class="card-subtxt">Success is the only one optionto improve  gradually.</p>
+                  <p class="card-subtxt">Success is the only one option to improve  gradually.</p>
               </div>
               <div class="cont-card">
                   <img class="card-logo" src="${static.url('images/card-vector8.svg')}">
