@@ -3,8 +3,9 @@ $color_2: #667085;
 $color_3: #FFFFFF;
 $color_4: #344054;
 $color_5: #014384;
-$color_6: #0192D9;
+$color_6: #F79009;
 $color_7: #1D2939;
+$color_8: #FFFCF5;
 $font-family_1: 'Inter';
 
 .page {
@@ -18,10 +19,10 @@ $font-family_1: 'Inter';
 	padding: 100px;
 	width: inherit;
 	min-width: fit-content;
-	height: 531px;
+	height: 570px;
 	left: 0px;
 	top: 0px;
-	background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 25%, rgba(247, 247, 247, 0) 50%, rgba(189, 233, 255, 0) 75%, rgba(1, 146, 217, 0.03) 100%);
+	background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 25%, rgba(247, 247, 247, 0) 50%, rgba(101, 112, 132, 0) 75%, rgba(89, 89, 89, 0.03) 100%);
 	background-blend-mode: multiply;
 	display: flex;
 	flex-direction: row;
@@ -63,7 +64,7 @@ $font-family_1: 'Inter';
 	gap: 30px;
 	width: 240px;
 	height: 68px;
-	background: linear-gradient(98.94deg, #014384 -10.01%, #0192D9 107.52%);
+	background: linear-gradient(90deg, #475467 0%, #667085 100%);
 	box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
 	border-radius: 5px;
 }
@@ -318,8 +319,9 @@ $font-family_1: 'Inter';
 	width: inherit;
 	position: relative;
 	min-width: fit-content;
-	height: fit-content;
-	background: #EFF8FF;
+	height: 2841px;
+	min-height: fit-content;
+	background: $color_8;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -359,15 +361,15 @@ $font-family_1: 'Inter';
 	position: relative;
 	width: 2px;
 	height: 498px;
-	left: 84px;
-	top: -2307px;
+	left: -283px;
+	top: -2198px;
 }
 .verline3 {
 	position: relative;
 	width: 2px;
 	height: 500px;
-	left: 84px;
-	top: -2271px;
+	left: -283px;
+	top: -2160px;
 }
 .sub-cont-row-pnt {
 	display: flex;
@@ -446,15 +448,15 @@ $font-family_1: 'Inter';
 	width: 564px;
 	height: 446px;
 	position: relative;
-	left: 86px;
-	top: -2239px;
+	left: -283px;
+	top: -2128px;
 }
 .ellipse2 {
 	width: 40px;
 	height: 40px;
 	position: relative;
-	left: 628px;
-	top: -2246px;
+	left: 260px;
+	top: -2135px;
 }
 .sub-cont-endtxt {
 	width: 181px;
