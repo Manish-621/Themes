@@ -14,5 +14,8 @@
     "autoprefixer": "^10.2.6",
     "clean-css-cli": "^5.3.0",
     "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.1"
   }
 }
